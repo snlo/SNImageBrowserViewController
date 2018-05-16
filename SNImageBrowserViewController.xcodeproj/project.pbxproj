@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07B837B4A4BF46411D4BE825 /* libPods-SNImageBrowserViewControllerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F69FB2FA35831FF5BBA0C2 /* libPods-SNImageBrowserViewControllerTests.a */; };
+		8ECF85BE8FD9CF7136423A47 /* libPods-SNImageBrowserViewControllerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E295D5A8CB846B1D4E2CC6 /* libPods-SNImageBrowserViewControllerUITests.a */; };
+		9857FD3A20ABD26D00A610B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD3920ABD26D00A610B0 /* AppDelegate.m */; };
+		9857FD3D20ABD26D00A610B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD3C20ABD26D00A610B0 /* ViewController.m */; };
+		9857FD4020ABD26D00A610B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9857FD3E20ABD26D00A610B0 /* Main.storyboard */; };
+		9857FD4220ABD26F00A610B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9857FD4120ABD26F00A610B0 /* Assets.xcassets */; };
+		9857FD4520ABD26F00A610B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9857FD4320ABD26F00A610B0 /* LaunchScreen.storyboard */; };
+		9857FD4820ABD26F00A610B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD4720ABD26F00A610B0 /* main.m */; };
+		9857FD5220ABD26F00A610B0 /* SNImageBrowserViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD5120ABD26F00A610B0 /* SNImageBrowserViewControllerTests.m */; };
+		9857FD5D20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD5C20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.m */; };
+		9857FD7120ABD2D400A610B0 /* UIView+SNImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD6D20ABD2D400A610B0 /* UIView+SNImageBrowserViewController.m */; };
+		9857FD7220ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD6F20ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.m */; };
+		9857FD7920ABD2FE00A610B0 /* SNImageBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD7320ABD2FE00A610B0 /* SNImageBrowserViewController.m */; };
+		9857FD7A20ABD2FE00A610B0 /* SNImageBrowserSubScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD7520ABD2FE00A610B0 /* SNImageBrowserSubScrollView.m */; };
+		9857FD7B20ABD2FE00A610B0 /* SNImageBrowserMainScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD7620ABD2FE00A610B0 /* SNImageBrowserMainScrollView.m */; };
+		9857FD7E20ABD31A00A610B0 /* SNImageBrowserTranslation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9857FD7D20ABD31A00A610B0 /* SNImageBrowserTranslation.m */; };
+		9857FD8020ABFDB600A610B0 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 9857FD7F20ABFDB500A610B0 /* test.png */; };
+		F28C57CDFBF669C8BA152BA1 /* libPods-SNImageBrowserViewController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3BE3134EBBB442610AA0C6 /* libPods-SNImageBrowserViewController.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9857FD4E20ABD26F00A610B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9857FD2D20ABD26D00A610B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9857FD3420ABD26D00A610B0;
+			remoteInfo = SNImageBrowserViewController;
+		};
+		9857FD5920ABD26F00A610B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9857FD2D20ABD26D00A610B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9857FD3420ABD26D00A610B0;
+			remoteInfo = SNImageBrowserViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02FD215620B1765F560C154B /* Pods-SNImageBrowserViewControllerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNImageBrowserViewControllerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNImageBrowserViewControllerUITests/Pods-SNImageBrowserViewControllerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19B8D2BF1FB5F69596B906D7 /* Pods-SNImageBrowserViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNImageBrowserViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0F73668C4573FF641C828C /* Pods-SNImageBrowserViewControllerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNImageBrowserViewControllerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNImageBrowserViewControllerUITests/Pods-SNImageBrowserViewControllerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		43E33AC8540FFA9561BFFF6F /* Pods-SNImageBrowserViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNImageBrowserViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController.release.xcconfig"; sourceTree = "<group>"; };
+		59F69FB2FA35831FF5BBA0C2 /* libPods-SNImageBrowserViewControllerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNImageBrowserViewControllerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D3BE3134EBBB442610AA0C6 /* libPods-SNImageBrowserViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNImageBrowserViewController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C78FB6DABBE5D87272776ED /* Pods-SNImageBrowserViewControllerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNImageBrowserViewControllerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNImageBrowserViewControllerTests/Pods-SNImageBrowserViewControllerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9857FD3520ABD26D00A610B0 /* SNImageBrowserViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNImageBrowserViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9857FD3820ABD26D00A610B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9857FD3920ABD26D00A610B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9857FD3B20ABD26D00A610B0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9857FD3C20ABD26D00A610B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9857FD3F20ABD26D00A610B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9857FD4120ABD26F00A610B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9857FD4420ABD26F00A610B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9857FD4620ABD26F00A610B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9857FD4720ABD26F00A610B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9857FD4D20ABD26F00A610B0 /* SNImageBrowserViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNImageBrowserViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9857FD5120ABD26F00A610B0 /* SNImageBrowserViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNImageBrowserViewControllerTests.m; sourceTree = "<group>"; };
+		9857FD5320ABD26F00A610B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9857FD5820ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNImageBrowserViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9857FD5C20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SNImageBrowserViewControllerUITests.m; sourceTree = "<group>"; };
+		9857FD5E20ABD26F00A610B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9857FD6D20ABD2D400A610B0 /* UIView+SNImageBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SNImageBrowserViewController.m"; sourceTree = "<group>"; };
+		9857FD6E20ABD2D400A610B0 /* UIView+SNImageBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SNImageBrowserViewController.h"; sourceTree = "<group>"; };
+		9857FD6F20ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+SNImageBrowserViewController.m"; sourceTree = "<group>"; };
+		9857FD7020ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+SNImageBrowserViewController.h"; sourceTree = "<group>"; };
+		9857FD7320ABD2FE00A610B0 /* SNImageBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNImageBrowserViewController.m; sourceTree = "<group>"; };
+		9857FD7420ABD2FE00A610B0 /* SNImageBrowserSubScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNImageBrowserSubScrollView.h; sourceTree = "<group>"; };
+		9857FD7520ABD2FE00A610B0 /* SNImageBrowserSubScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNImageBrowserSubScrollView.m; sourceTree = "<group>"; };
+		9857FD7620ABD2FE00A610B0 /* SNImageBrowserMainScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNImageBrowserMainScrollView.m; sourceTree = "<group>"; };
+		9857FD7720ABD2FE00A610B0 /* SNImageBrowserMainScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNImageBrowserMainScrollView.h; sourceTree = "<group>"; };
+		9857FD7820ABD2FE00A610B0 /* SNImageBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNImageBrowserViewController.h; sourceTree = "<group>"; };
+		9857FD7C20ABD31900A610B0 /* SNImageBrowserTranslation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNImageBrowserTranslation.h; sourceTree = "<group>"; };
+		9857FD7D20ABD31A00A610B0 /* SNImageBrowserTranslation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SNImageBrowserTranslation.m; sourceTree = "<group>"; };
+		9857FD7F20ABFDB500A610B0 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		C6E295D5A8CB846B1D4E2CC6 /* libPods-SNImageBrowserViewControllerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SNImageBrowserViewControllerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B928E98E571630CEFD17D3 /* Pods-SNImageBrowserViewControllerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNImageBrowserViewControllerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNImageBrowserViewControllerTests/Pods-SNImageBrowserViewControllerTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9857FD3220ABD26D00A610B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F28C57CDFBF669C8BA152BA1 /* libPods-SNImageBrowserViewController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9857FD4A20ABD26F00A610B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B837B4A4BF46411D4BE825 /* libPods-SNImageBrowserViewControllerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9857FD5520ABD26F00A610B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ECF85BE8FD9CF7136423A47 /* libPods-SNImageBrowserViewControllerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5917951DB2E994CE83D5AA5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3BE3134EBBB442610AA0C6 /* libPods-SNImageBrowserViewController.a */,
+				59F69FB2FA35831FF5BBA0C2 /* libPods-SNImageBrowserViewControllerTests.a */,
+				C6E295D5A8CB846B1D4E2CC6 /* libPods-SNImageBrowserViewControllerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69AAD3D3D3EF8106073F198B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				19B8D2BF1FB5F69596B906D7 /* Pods-SNImageBrowserViewController.debug.xcconfig */,
+				43E33AC8540FFA9561BFFF6F /* Pods-SNImageBrowserViewController.release.xcconfig */,
+				7C78FB6DABBE5D87272776ED /* Pods-SNImageBrowserViewControllerTests.debug.xcconfig */,
+				D5B928E98E571630CEFD17D3 /* Pods-SNImageBrowserViewControllerTests.release.xcconfig */,
+				02FD215620B1765F560C154B /* Pods-SNImageBrowserViewControllerUITests.debug.xcconfig */,
+				2F0F73668C4573FF641C828C /* Pods-SNImageBrowserViewControllerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9857FD2C20ABD26D00A610B0 = {
+			isa = PBXGroup;
+			children = (
+				9857FD3720ABD26D00A610B0 /* SNImageBrowserViewController */,
+				9857FD5020ABD26F00A610B0 /* SNImageBrowserViewControllerTests */,
+				9857FD5B20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests */,
+				9857FD3620ABD26D00A610B0 /* Products */,
+				69AAD3D3D3EF8106073F198B /* Pods */,
+				5917951DB2E994CE83D5AA5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9857FD3620ABD26D00A610B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD3520ABD26D00A610B0 /* SNImageBrowserViewController.app */,
+				9857FD4D20ABD26F00A610B0 /* SNImageBrowserViewControllerTests.xctest */,
+				9857FD5820ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9857FD3720ABD26D00A610B0 /* SNImageBrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD3820ABD26D00A610B0 /* AppDelegate.h */,
+				9857FD3920ABD26D00A610B0 /* AppDelegate.m */,
+				9857FD3B20ABD26D00A610B0 /* ViewController.h */,
+				9857FD3C20ABD26D00A610B0 /* ViewController.m */,
+				9857FD7F20ABFDB500A610B0 /* test.png */,
+				9857FD6A20ABD27600A610B0 /* SNImageBrowserViewController */,
+				9857FD3E20ABD26D00A610B0 /* Main.storyboard */,
+				9857FD4120ABD26F00A610B0 /* Assets.xcassets */,
+				9857FD4320ABD26F00A610B0 /* LaunchScreen.storyboard */,
+				9857FD4620ABD26F00A610B0 /* Info.plist */,
+				9857FD4720ABD26F00A610B0 /* main.m */,
+			);
+			path = SNImageBrowserViewController;
+			sourceTree = "<group>";
+		};
+		9857FD5020ABD26F00A610B0 /* SNImageBrowserViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD5120ABD26F00A610B0 /* SNImageBrowserViewControllerTests.m */,
+				9857FD5320ABD26F00A610B0 /* Info.plist */,
+			);
+			path = SNImageBrowserViewControllerTests;
+			sourceTree = "<group>";
+		};
+		9857FD5B20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD5C20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.m */,
+				9857FD5E20ABD26F00A610B0 /* Info.plist */,
+			);
+			path = SNImageBrowserViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		9857FD6A20ABD27600A610B0 /* SNImageBrowserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD7720ABD2FE00A610B0 /* SNImageBrowserMainScrollView.h */,
+				9857FD7620ABD2FE00A610B0 /* SNImageBrowserMainScrollView.m */,
+				9857FD7420ABD2FE00A610B0 /* SNImageBrowserSubScrollView.h */,
+				9857FD7520ABD2FE00A610B0 /* SNImageBrowserSubScrollView.m */,
+				9857FD7820ABD2FE00A610B0 /* SNImageBrowserViewController.h */,
+				9857FD7320ABD2FE00A610B0 /* SNImageBrowserViewController.m */,
+				9857FD6C20ABD28100A610B0 /* Translation */,
+				9857FD6B20ABD27F00A610B0 /* Categories */,
+			);
+			path = SNImageBrowserViewController;
+			sourceTree = "<group>";
+		};
+		9857FD6B20ABD27F00A610B0 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD7020ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.h */,
+				9857FD6F20ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.m */,
+				9857FD6E20ABD2D400A610B0 /* UIView+SNImageBrowserViewController.h */,
+				9857FD6D20ABD2D400A610B0 /* UIView+SNImageBrowserViewController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9857FD6C20ABD28100A610B0 /* Translation */ = {
+			isa = PBXGroup;
+			children = (
+				9857FD7C20ABD31900A610B0 /* SNImageBrowserTranslation.h */,
+				9857FD7D20ABD31A00A610B0 /* SNImageBrowserTranslation.m */,
+			);
+			path = Translation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9857FD3420ABD26D00A610B0 /* SNImageBrowserViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9857FD6120ABD26F00A610B0 /* Build configuration list for PBXNativeTarget "SNImageBrowserViewController" */;
+			buildPhases = (
+				86637644B2BE569DC8642C29 /* [CP] Check Pods Manifest.lock */,
+				9857FD3120ABD26D00A610B0 /* Sources */,
+				9857FD3220ABD26D00A610B0 /* Frameworks */,
+				9857FD3320ABD26D00A610B0 /* Resources */,
+				12C05887FF114C65DEAD6F04 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SNImageBrowserViewController;
+			productName = SNImageBrowserViewController;
+			productReference = 9857FD3520ABD26D00A610B0 /* SNImageBrowserViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9857FD4C20ABD26F00A610B0 /* SNImageBrowserViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9857FD6420ABD26F00A610B0 /* Build configuration list for PBXNativeTarget "SNImageBrowserViewControllerTests" */;
+			buildPhases = (
+				86BD0B852A5A73738E4A198B /* [CP] Check Pods Manifest.lock */,
+				9857FD4920ABD26F00A610B0 /* Sources */,
+				9857FD4A20ABD26F00A610B0 /* Frameworks */,
+				9857FD4B20ABD26F00A610B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9857FD4F20ABD26F00A610B0 /* PBXTargetDependency */,
+			);
+			name = SNImageBrowserViewControllerTests;
+			productName = SNImageBrowserViewControllerTests;
+			productReference = 9857FD4D20ABD26F00A610B0 /* SNImageBrowserViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9857FD5720ABD26F00A610B0 /* SNImageBrowserViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9857FD6720ABD26F00A610B0 /* Build configuration list for PBXNativeTarget "SNImageBrowserViewControllerUITests" */;
+			buildPhases = (
+				B225E5BADEAF23A43E4B4CC9 /* [CP] Check Pods Manifest.lock */,
+				9857FD5420ABD26F00A610B0 /* Sources */,
+				9857FD5520ABD26F00A610B0 /* Frameworks */,
+				9857FD5620ABD26F00A610B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9857FD5A20ABD26F00A610B0 /* PBXTargetDependency */,
+			);
+			name = SNImageBrowserViewControllerUITests;
+			productName = SNImageBrowserViewControllerUITests;
+			productReference = 9857FD5820ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9857FD2D20ABD26D00A610B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = snlo;
+				TargetAttributes = {
+					9857FD3420ABD26D00A610B0 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					9857FD4C20ABD26F00A610B0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9857FD3420ABD26D00A610B0;
+					};
+					9857FD5720ABD26F00A610B0 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 9857FD3420ABD26D00A610B0;
+					};
+				};
+			};
+			buildConfigurationList = 9857FD3020ABD26D00A610B0 /* Build configuration list for PBXProject "SNImageBrowserViewController" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9857FD2C20ABD26D00A610B0;
+			productRefGroup = 9857FD3620ABD26D00A610B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9857FD3420ABD26D00A610B0 /* SNImageBrowserViewController */,
+				9857FD4C20ABD26F00A610B0 /* SNImageBrowserViewControllerTests */,
+				9857FD5720ABD26F00A610B0 /* SNImageBrowserViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9857FD3320ABD26D00A610B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9857FD4520ABD26F00A610B0 /* LaunchScreen.storyboard in Resources */,
+				9857FD4220ABD26F00A610B0 /* Assets.xcassets in Resources */,
+				9857FD8020ABFDB600A610B0 /* test.png in Resources */,
+				9857FD4020ABD26D00A610B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9857FD4B20ABD26F00A610B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9857FD5620ABD26F00A610B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C05887FF114C65DEAD6F04 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources.sh",
+				"${PODS_ROOT}/SNTool/SNTool/SNTool/SNTool.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SNTool.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86637644B2BE569DC8642C29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNImageBrowserViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86BD0B852A5A73738E4A198B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNImageBrowserViewControllerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B225E5BADEAF23A43E4B4CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNImageBrowserViewControllerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9857FD3120ABD26D00A610B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9857FD7E20ABD31A00A610B0 /* SNImageBrowserTranslation.m in Sources */,
+				9857FD7B20ABD2FE00A610B0 /* SNImageBrowserMainScrollView.m in Sources */,
+				9857FD7920ABD2FE00A610B0 /* SNImageBrowserViewController.m in Sources */,
+				9857FD3D20ABD26D00A610B0 /* ViewController.m in Sources */,
+				9857FD4820ABD26F00A610B0 /* main.m in Sources */,
+				9857FD7120ABD2D400A610B0 /* UIView+SNImageBrowserViewController.m in Sources */,
+				9857FD7A20ABD2FE00A610B0 /* SNImageBrowserSubScrollView.m in Sources */,
+				9857FD3A20ABD26D00A610B0 /* AppDelegate.m in Sources */,
+				9857FD7220ABD2D400A610B0 /* UIImageView+SNImageBrowserViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9857FD4920ABD26F00A610B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9857FD5220ABD26F00A610B0 /* SNImageBrowserViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9857FD5420ABD26F00A610B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9857FD5D20ABD26F00A610B0 /* SNImageBrowserViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9857FD4F20ABD26F00A610B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9857FD3420ABD26D00A610B0 /* SNImageBrowserViewController */;
+			targetProxy = 9857FD4E20ABD26F00A610B0 /* PBXContainerItemProxy */;
+		};
+		9857FD5A20ABD26F00A610B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9857FD3420ABD26D00A610B0 /* SNImageBrowserViewController */;
+			targetProxy = 9857FD5920ABD26F00A610B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9857FD3E20ABD26D00A610B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9857FD3F20ABD26D00A610B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9857FD4320ABD26F00A610B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9857FD4420ABD26F00A610B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9857FD5F20ABD26F00A610B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9857FD6020ABD26F00A610B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9857FD6220ABD26F00A610B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19B8D2BF1FB5F69596B906D7 /* Pods-SNImageBrowserViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SNImageBrowserViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNImageBrowserViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9857FD6320ABD26F00A610B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43E33AC8540FFA9561BFFF6F /* Pods-SNImageBrowserViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SNImageBrowserViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNImageBrowserViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9857FD6520ABD26F00A610B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C78FB6DABBE5D87272776ED /* Pods-SNImageBrowserViewControllerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNImageBrowserViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNImageBrowserViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNImageBrowserViewController.app/SNImageBrowserViewController";
+			};
+			name = Debug;
+		};
+		9857FD6620ABD26F00A610B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B928E98E571630CEFD17D3 /* Pods-SNImageBrowserViewControllerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNImageBrowserViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNImageBrowserViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SNImageBrowserViewController.app/SNImageBrowserViewController";
+			};
+			name = Release;
+		};
+		9857FD6820ABD26F00A610B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FD215620B1765F560C154B /* Pods-SNImageBrowserViewControllerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNImageBrowserViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNImageBrowserViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNImageBrowserViewController;
+			};
+			name = Debug;
+		};
+		9857FD6920ABD26F00A610B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0F73668C4573FF641C828C /* Pods-SNImageBrowserViewControllerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SNImageBrowserViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = snlo.SNImageBrowserViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SNImageBrowserViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9857FD3020ABD26D00A610B0 /* Build configuration list for PBXProject "SNImageBrowserViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9857FD5F20ABD26F00A610B0 /* Debug */,
+				9857FD6020ABD26F00A610B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9857FD6120ABD26F00A610B0 /* Build configuration list for PBXNativeTarget "SNImageBrowserViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9857FD6220ABD26F00A610B0 /* Debug */,
+				9857FD6320ABD26F00A610B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9857FD6420ABD26F00A610B0 /* Build configuration list for PBXNativeTarget "SNImageBrowserViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9857FD6520ABD26F00A610B0 /* Debug */,
+				9857FD6620ABD26F00A610B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9857FD6720ABD26F00A610B0 /* Build configuration list for PBXNativeTarget "SNImageBrowserViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9857FD6820ABD26F00A610B0 /* Debug */,
+				9857FD6920ABD26F00A610B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9857FD2D20ABD26D00A610B0 /* Project object */;
+}
