@@ -23,7 +23,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    
+//    pod trunk push SNImageBrowserViewController.podspec --verbose --allow-warnings --use-libraries
     
     [self.imageView sn_browsingWithImageNameArray:@[@"test"] viewArray:@[self.imageView]];
 }
