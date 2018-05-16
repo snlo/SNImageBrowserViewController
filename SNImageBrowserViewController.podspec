@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SNImageBrowserViewController"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Refreshing image viewer."
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SNImageBrowserViewController/SNImageBrowserViewController/*.{h,m}"
+  s.source_files  = "SNImageBrowserViewController/SNImageBrowserViewController/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -109,14 +109,14 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
-  s.subspec 'Translation' do |ss|
-  ss.source_files = 'SNImageBrowserViewController/SNImageBrowserViewController/Translation/*.{h,m}'
+  # s.subspec 'Translation' do |ss|
+  # ss.source_files = 'SNImageBrowserViewController/SNImageBrowserViewController/Translation/*.{h,m}'
 
-  end
-  s.subspec 'Categories' do |ss|
-  ss.source_files = 'SNImageBrowserViewController/SNImageBrowserViewController/Categories/*.{h,m}'
+  # end
+  # s.subspec 'Categories' do |ss|
+  # ss.source_files = 'SNImageBrowserViewController/SNImageBrowserViewController/Categories/*.{h,m}'
 
-  end
+  # end
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -141,7 +141,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  
+
   s.dependency 'pop'
   s.dependency 'SDWebImage'
   s.dependency 'ReactiveObjC'
