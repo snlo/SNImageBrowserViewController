@@ -7,8 +7,8 @@
 //
 
 #import "SNImageBrowserTranslation.h"
-#import <POP.h>
-#import <SNTool.h>
+#import <pop/POP.h>
+#import <SNTool/SNTool.h>
 
 #import "UIView+SNImageBrowserViewController.h"
 

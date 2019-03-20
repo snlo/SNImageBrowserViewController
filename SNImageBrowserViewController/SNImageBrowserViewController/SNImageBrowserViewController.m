@@ -10,7 +10,7 @@
 #import "SNImageBrowserMainScrollView.h"
 #import "SNImageBrowserTranslation.h"
 
-#import <SNTool.h>
+#import <SNTool/SNTool.h>
 
 #import "UIView+SNImageBrowserViewController.h"
 

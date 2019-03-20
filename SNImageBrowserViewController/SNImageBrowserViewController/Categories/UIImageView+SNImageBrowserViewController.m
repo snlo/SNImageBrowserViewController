@@ -8,8 +8,8 @@
 
 #import "UIImageView+SNImageBrowserViewController.h"
 
-#import <SNTool.h>
-#import <ReactiveObjC.h>
+#import <SNTool/SNTool.h>
+#import <ReactiveObjC/ReactiveObjC.h>
 
 #import "SNImageBrowserViewController.h"
 

@@ -7,9 +7,9 @@
 //
 
 #import "SNImageBrowserSubScrollView.h"
-#import <POP.h>
-#import <UIImageView+WebCache.h>
-#import <SNTool.h>
+#import <pop/POP.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import <SNTool/SNTool.h>
 
 #import "UIView+SNImageBrowserViewController.h"
 
