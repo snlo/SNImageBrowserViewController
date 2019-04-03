@@ -7,8 +7,8 @@
 //
 
 #import "SNImageBrowserMainScrollView.h"
-#import "SNImageBrowserSubScrollView.h"
 
+#import "SNImageBrowserSubScrollView.h"
 #import "UIView+SNImageBrowserViewController.h"
 
 //图片间的间距
