@@ -365,17 +365,16 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources.sh",
-				"${PODS_ROOT}/SNTool/SNTool/SNTool/SNTool.bundle",
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SNTool.bundle",
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SNImageBrowserViewController/Pods-SNImageBrowserViewController-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		86637644B2BE569DC8642C29 /* [CP] Check Pods Manifest.lock */ = {
